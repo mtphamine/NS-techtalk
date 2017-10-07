@@ -5,7 +5,7 @@
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
 \usepackage{minted}
-% \usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{multicol,graphicx}
 \usepackage{gb4e}
 \resetcounteronoverlays{exx}
@@ -111,7 +111,29 @@
 	% the trick is figuring out when they are useful
 \end{frame}
 
-\section{Verb Conjugation}
+\begin{frame}{3 strategies}
+	\begin{itemize}
+		\item hardcode/exhaustive listing
+		\item rules/principled based
+		\item machine learning
+	\end{itemize}
+
+	\pause
+
+	Where does each strategy fit best? How to combine them?
+\end{frame}
+
+\begin{frame}{Perspective}
+	What do you see? How would you recreate this data distribution?
+
+	\includegraphics[width=.85\textwidth]{images/circleplot.png}
+\end{frame}
+
+\begin{frame}{Outline of talk}
+	\tableofcontents
+\end{frame}
+
+\section{Irregular Verbs}
 \begin{frame}{Verb Inflection}
 	\begin{itemize}
 		\item A single verb can have various {\bf word forms}:
@@ -189,7 +211,7 @@
 	\begin{itemize}
 		\item Only 3rd person singular is different -- this looks easy!
 		\begin{itemize}
-			\item Just add \emph{-s} to the 3.sg present form and \emph{-d} to all past forms!
+			\item Just add \alert{-s} to the 3.sg present form and \alert{-d} to all past forms!
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -233,9 +255,29 @@
 	\pause
 
 	\begin{itemize}
-		\item Darn, how do we get \emph{am} or \emph{was} from \emph{be}?
+		\item Darn, how do we get \alert{am} or \alert{was} from \alert{be}?
 	\end{itemize}
+\end{frame}
 
+\begin{frame}{Best strategy}
+	\begin{itemize}
+		\item There are rules for regular morphology
+		\item Which verbs are irregular seems arbitrary
+		\item How irregular verbs inflect also seems arbitrary
+		\item Rules might be tough to derive
+		\item Machine Learning may work, but do we actually want to overfit data?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Finite problem set}
+	\begin{itemize}
+		\item Wikipedia lists about 200 English irregular verbs, including \alert{shrive}, \alert{stave}, \alert{gild}
+		\item This is finite set, and most words aren't even that relevant
+		\item Verb dictionaries exist
+		\item There are subgroups within the irregulars
+		\item It is feasible to exhaustively hardcode a list of all irregulars without rules or ML
+		\item This overfits the dataset, but by definition we don't expect irregular verb patterns to be productive
+	\end{itemize}
 \end{frame}
 
 
@@ -307,7 +349,7 @@
 %   for which the \emph{mtheme} provides a nice progress indicator \ldots
 % \end{frame}
 
-\section{Elements}
+% \section{Elements}
 
 \begin{frame}[fragile]
   \frametitle{Typography}
@@ -413,7 +455,7 @@ text, \alert{accent} parts or show \textbf{bold} results.
 %   \end{quote}
 % \end{frame}
 
-\plain{Dark background}{\vspace{-2em}\begin{center}\includegraphics[width=\textwidth]{images/valley.jpg}\end{center}}
+% \plain{Dark background}{\vspace{-2em}\begin{center}\includegraphics[width=\textwidth]{images/valley.jpg}\end{center}}
 
 \section{Conclusion}
 
