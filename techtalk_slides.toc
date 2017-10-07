@@ -1,8 +1,8 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Overview}{2}{0}{1}
-\beamer@sectionintoc {2}{Verb Conjugation}{8}{0}{2}
-\beamer@sectionintoc {3}{Pronouns}{15}{0}{3}
-\beamer@sectionintoc {4}{Sentence Selection}{16}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{21}{0}{5}
-\beamer@sectionintoc {6}{Elements}{22}{0}{6}
-\beamer@sectionintoc {7}{Conclusion}{25}{0}{7}
+\beamer@sectionintoc {2}{Verb Conjugation}{17}{0}{2}
+\beamer@sectionintoc {3}{Pronouns}{24}{0}{3}
+\beamer@sectionintoc {4}{Sentence Selection}{25}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{30}{0}{5}
+\beamer@sectionintoc {6}{Elements}{31}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{34}{0}{7}
