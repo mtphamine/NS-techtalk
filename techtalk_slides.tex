@@ -6,7 +6,7 @@
 \usepackage[scale=2]{ccicons}
 \usepackage{minted}
 \usepackage{hyperref}
-\usepackage{multicol,graphicx}
+\usepackage{multicol,graphicx,tikz,tikz-qtree}
 \usepackage{gb4e}
 \resetcounteronoverlays{exx}
 
@@ -276,12 +276,171 @@
 		\item Verb dictionaries exist
 		\item There are subgroups within the irregulars
 		\item It is feasible to exhaustively hardcode a list of all irregulars without rules or ML
-		\item This overfits the dataset, but by definition we don't expect irregular verb patterns to be productive
+		\item We can exactly fit the data without over- or undergeneralizing
 	\end{itemize}
 \end{frame}
 
 
 \section{Pronouns}
+\begin{frame}{Anaphora}
+	\begin{description}
+		\item[Anaphora] Expressions that depend on a contextual anteceent for their interpretation
+		\item[Pronoun] A type of anaphor that can replace a \textbf{Noun Phrase (NP)} (or Determiner Phrase)
+	\end{description}
+
+	\begin{table}
+		\begin{multicols}{2}
+
+			{\bf Nominative}	\\
+			\begin{tabular}{|r|cc|}
+				\toprule
+					&	singular	&	plural	\\
+				\midrule
+				1	&	I 	&	we 	\\	
+				% \midrule
+				2	&	you 	&	you/yall/yinz 	\\
+				% \midrule
+				3	&	she/he/it &	they 	\\
+				\bottomrule
+			\end{tabular}
+
+			{\bf Accusative}	\\
+			\begin{tabular}{|r|cc|}
+				\toprule
+					&	singular	&	plural	\\
+				\midrule
+				1	&	me 	&	us 	\\	
+				% \midrule
+				2	&	you 	&	you/yall/yinz 	\\
+				% \midrule
+				3	&	her/him/it &	them 	\\
+				\bottomrule
+			\end{tabular}
+		\end{multicols}
+	\end{table}
+\end{frame}
+
+\begin{frame}{Entity reference}
+	\begin{quote}
+		In later years, holding forth to an interviewer or to an audience of aging fans at a comic book convention, Sam Clay liked to declare, apropos of \textbf{his} and Joe Kavalier's greatest creation, that back when \textbf{he} was a boy, sealed and hog-tied inside the airtight vessel known as Brooklyn, New York, \textbf{he} had been haunted by dreams of Harry Houdini. "To \textbf{me}, Clark Kent in a phone booth and Houdini in a packing crate, \textbf{they} were one and the same thing,"[...]
+
+		% \pause
+		\medskip
+		-Michael Chabon, The Amazing Adventures of Kavalier \& Clay
+	\end{quote}
+
+	\pause
+
+	\begin{itemize}
+		\item Connecting reference between expressions is non-trivial!
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Picking a strategy}
+	\begin{itemize}
+		\item Strawman argument: hardcoding every possible instance to use a pronoun is out 	\pause
+		\item Machine Learning? \pause Is likely possible...	\pause
+		\begin{itemize}
+			\item what are the features we want to track?
+			\item how arbitrary is the data?
+		\end{itemize}
+		\pause
+		\item "Though this be madness, yet there is method in 't."
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{A principled approach}
+	\begin{itemize}
+		\item The distribution of pronouns is not arbitrary
+		\item We actually probably have a pretty good idea of when we can use pronouns \pause
+		\item They seem to \textbf{corefer} with recently mentioned entities of that match their description \pause
+		\item Let's try a rule:
+	\end{itemize}
+
+	\begin{exe}
+		\ex \textbf{Pronoun Rule 1}: If the entity is the same as the most recent entity with the same \textbf{features} (person, gender, number), a pronoun can be used
+	\end{exe}
+\end{frame}
+
+\begin{frame}{Does it work?}
+	\begin{exe}
+		\ex \begin{xlist}
+			\ex Harry was in Gryffindor.
+			\ex \textbf{He} was friends with Ron.
+			\ex\label{prorulefail} \textbf{He} had a pet rat.
+		\end{xlist}
+	\end{exe}
+
+	\begin{itemize}
+		\item Who does \alert{He} in (\ref{prorulefail}) refer to? Harry or Ron? \pause
+		\item Ron is the most salient singular masculine entity
+		\item so why doesn't \alert{He} corefer? \pause
+		\item It seems like linear order is too simplistic of an approach
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Saliency}
+	\begin{itemize}
+		\item Pronouns (across sentences) are tracking \textbf{saliency}
+	\end{itemize}
+
+	\begin{description}
+		\item[Salient:] assumed to be in the \textbf{addressee}'s consciousness at the \textbf{utterance time} \pause
+	\end{description}
+
+	\begin{exe}
+		\ex Harry studies at Hogwarts with Ron.
+	\end{exe}
+
+	\begin{itemize}
+		\item Who is more salient? Harry? or Ron? \pause
+		\item Why?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Information structure}
+	\Tree
+		[.S 
+			[.NP \textbf{Harry} ][.VP 
+				[.VP 
+					[.VP 
+						[.V studies ]
+					][.PP 
+						[.P at ][.NP Hogwarts ]
+					]
+				][.PP 
+					[.P with ][.NP \textbf{Ron} ]
+				]
+			]
+		]
+	
+	\begin{itemize}
+		\item Subjects are structurally higher than objects
+		\item In English this correlates with saliency
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Tracking saliency}
+	\begin{itemize}
+		\item An advanced NLG system should track saliency in order to use pronouns
+		\item We've seen that the syntactic structure strongly influences saliency \pause
+		\item Pronoun distribution appears to be based on known principles
+		\item so lwe should ensure that the AI system also shares those principles
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Other factors?}
+	\begin{itemize}
+		\item But are there other factors at play? \pause
+		\begin{itemize}
+			\item recency
+			\item repitition
+			\item ?? \pause
+		\end{itemize}
+		\item How would these interact with each other?
+	\end{itemize}
+\end{frame}
 
 
 \section{Sentence Selection}

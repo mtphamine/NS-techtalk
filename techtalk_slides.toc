@@ -2,6 +2,6 @@
 \beamer@sectionintoc {1}{Overview}{2}{0}{1}
 \beamer@sectionintoc {2}{Irregular Verbs}{21}{0}{2}
 \beamer@sectionintoc {3}{Pronouns}{30}{0}{3}
-\beamer@sectionintoc {4}{Sentence Selection}{31}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{36}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{38}{0}{6}
+\beamer@sectionintoc {4}{Sentence Selection}{54}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{59}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{61}{0}{6}
