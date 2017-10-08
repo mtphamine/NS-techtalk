@@ -446,16 +446,16 @@
 \section{Sentence Selection}
 \begin{frame}{Grammaticality vs Style}
     \begin{description}
-        \item[Grammaticality:] only grammatical and accurate sentences should be {\bf generated}
+        \item[Sentece generation:] only grammatical and accurate sentences should be {\bf generated}
         \item[Sentence selection:] the stylistically best sentence from the set of grammatical candidate sentences should be {\bf selected} \pause
     \end{description}
+
     \begin{itemize}
         \item but what determines a stylistically `good` sentence?
     \end{itemize}
-    
 \end{frame}
 
-\begin{frame}{Subjective axes of `goodness`}
+\begin{frame}{What makes a good sentence?}
     \begin{itemize}
         \item Most native speakers will agree when a sentence is grammatical
         \item But style is vague and elusive, varying from person to person   \pause
@@ -463,18 +463,59 @@
     \end{itemize}
     
     \begin{exe}
-        \ex Aaron Young generated \$3M in revenue in 2016.
-        \ex Aaron Young's revenue was \$3M in 2016.
-        \ex Revenue for Aaron Young was \$3M in 2016.
-        \ex In 2016, Aaron Young generated \$3M in revenue.
-        \ex Aaron Young's 2016 generated revenue was \$3M.
+    	\ex \begin{xlist}
+	        \ex Aaron Young generated \$3M in revenue in 2016.
+	        \ex Aaron Young's revenue was \$3M in 2016.
+	        \ex Revenue for Aaron Young was \$3M in 2016.
+	        \ex In 2016, Aaron Young generated \$3M in revenue.
+	        \ex Aaron Young's 2016 generated revenue was \$3M.
+	    \end{xlist}
     \end{exe}
-    
+
+    \pause
+    \begin{itemize}
+    	\item is there even a right answer?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Multiple axes of 'goodness'}
+	\begin{itemize}
+		\item There seem to be multiple factors involved:
+		\begin{itemize}
+			\item length
+			\item subject choice
+			\item values before attributes
+			\item fronted information
+			\item strong verbs vs copulas
+			\item ...	\pause
+		\end{itemize}
+		\item These axes seem largely independent	
+		\item Different users also vary in how strongly they weight each factor
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Did somebody say "weight"?}
+	\begin{itemize}
+		\item Sentence selection involves the interaction between several features
+		\item The importance of these features is variable 
+	\end{itemize}
 \end{frame}
 
 
 \section{Conclusion}
+\begin{frame}{Perspectives redux}
+	What do you see?
+	\begin{center}
+		\includegraphics[width=.6\textwidth]{images/circleplot.png}
+	\end{center}
 
+	\pause
+	\begin{itemize}
+		\item \textbf{Irregular verbs:} discrete points	\pause
+		\item \textbf{Pronouns}: conceptual circle $\rightarrow$ messy data	\pause
+		\item \textbf{Sentence selection}: messy data $\rightarrow$ conceptual circle
+	\end{itemize}
+\end{frame}
 
 
 
@@ -510,18 +551,18 @@
 
 % \section{Elements}
 
-\begin{frame}[fragile]
-  \frametitle{Typography}
-      \begin{minted}[fontsize=\small]{latex}
-The theme provides sensible defaults to \emph{emphasis}
-text, \alert{accent} parts or show \textbf{bold} results.
-      \end{minted}
+% \begin{frame}[fragile]
+%   \frametitle{Typography}
+%       \begin{minted}[fontsize=\small]{latex}
+% The theme provides sensible defaults to \emph{emphasis}
+% text, \alert{accent} parts or show \textbf{bold} results.
+%       \end{minted}
 
-  \begin{center}becomes\end{center}
+%   \begin{center}becomes\end{center}
 
-  The theme provides sensible defaults to \emph{emphasis} text,
-  \alert{accent} parts or show \textbf{bold} results.
-\end{frame}
+%   The theme provides sensible defaults to \emph{emphasis} text,
+%   \alert{accent} parts or show \textbf{bold} results.
+% \end{frame}
 
 % \begin{frame}{Lists}
 %   \begin{columns}[onlytextwidth]
@@ -616,7 +657,6 @@ text, \alert{accent} parts or show \textbf{bold} results.
 
 % \plain{Dark background}{\vspace{-2em}\begin{center}\includegraphics[width=\textwidth]{images/valley.jpg}\end{center}}
 
-\section{Conclusion}
 
 \begin{frame}{Summary}
 
