@@ -22,29 +22,6 @@
 
 \maketitle
 
-% Company Overview
-% Platform overview
-% [Transition into main topic]
-%   Machine learning is not a feature
-% Deep dive on problems:
-%   Verb conjugation
-%       Can you machine learn verb forms? Talk to John Goldsmith
-%       Rule based approaches kind of work, but you keep having to add exceptions for irregular verbs
-%           This varies language to language
-%       Really it’s not that hard to just enumerate all verbs with their forms, there aren’t that many verbs that people use
-%   Pronouns
-%       Take a passage of text with all specific references, ask audience: how do we get it to be less redundant?
-%           Maybe use a real passage and replace refs with specific?
-%       Go through some rule-based approaches, show where that either gets hairy or doesn’t work
-%       “This is a well studied phenomenon called saliency”
-%   Sentence selection
-%       You obviously can’t enumerate all good sentences
-%       Rule systems are just really inextensible
-%       This is really hard to pin down, finally a good problem to apply machine learning to
-% Conclusions
-% Talk about internships now or at the beginning?
-% Q&A
-
 \section{Overview}
 \begin{frame}{What is Quill?}
     Quill is an \alert{Advanced Natural Language Generation (NLG)} platform
@@ -103,19 +80,106 @@
 \begin{frame}{Linguistically savvy \& intent-driven}
 	% lx knowledge allows Quill to be linguistically flexible and creative
 	% intent-driven ensures that Quillis writing accurate and meaningful things
+	An advanced NLG system can dynamically generate language in response to a user's intents
+
+	\begin{itemize}
+		\item Templatic approaches
+		\begin{itemize} 
+			\item are only locally dynamic:\\
+				e.g. easy to swap out a name or number, but harder to rearrange sentence structure
+			\item Language quality results from a complex decision tree with prebaked language at the leaves
+		\end{itemize}
+
+		\item Neural nets
+		\begin{itemize}
+			\item difficult to impossible to accurately convey a specific message\\ \pause
+				e.g. a highly polished turd
+			\item user's intent has unreliable influence on language
+		\end{itemize}
+	\end{itemize}
 \end{frame}
 
-\begin{frame}{Hammers and nails}
+\begin{frame}{Goals for Quill}
+	\begin{itemize}
+		\item Accurately and dynamically convey the user's intents in natural language 
+		\item Language and ideas are \textbf{human-oriented} \pause
+		\item Two major components to achieving this:
+	\end{itemize}
+
+	\begin{description}
+		\item[Ontology] The NLG system has a model of the world and the language used to describe it that is comparable to a human's \pause
+		\item[Awareness] It has an understanding of how to express ideas in natural language and what it is saying
+	\end{description}
+\end{frame}
+
+\begin{frame}{A delicious AI recipe}
+
+	\footnotesize
+	Chocolate Baked And Serves	\\
+	cookies, deserts
+
+	1 cup butter	\\
+	2 cup peanut butter	\\
+	1 cup sugar \\
+	1 teaspoon vanilla extract	\\
+	3  eggs \\
+	1 teaspoon baking powder \\
+	1 cup white cocoa \\
+	1 cup milk \\
+	1 cup horseradish or sour cream \\
+
+	Mix all ingredients.  Spread over grease and make a gently pan mixture \\
+	with 1 several hours, turning and boil on high until the mixture is completely golden.
+
+	Transfer the short that opan and golden brown. Release the chocolate
+	accompaniments and cool the prepared pastry tuna. Add the shrimp to the sugar brownie cubes, oil, salt and butter in a small bowl. Combine the squid ingredients. Bring to a boil over low heat to 375 deg F. With the liver), slice them to kitchen pire and add chicken broth.
+
+	{\tiny \href{http://lewisandquark.tumblr.com/post/160349989777/in-which-the-neural-network-gets-bored-halfway}{http://lewisandquark.tumblr.com/post/160349989777/in-which-the-neural-network-gets-bored-halfway}}
+\end{frame}
+
+\begin{frame}{Not human-oriented}
+	What went wrong? Why isn't this useful to humans? \pause
+
+	\begin{itemize}
+		\item<1->	\textbf{Ontology}
+		\begin{itemize}
+			\item<2-> The recipe doesn't understand what are reasonable ingredients and combinations 
+			\item<3-> Seafood probably shouldn't go into cookies
+			\item<4-> You might also burn your house down trying to take its advice
+		\end{itemize}
+
+		\item<1->	\textbf{Awareness}
+		\begin{itemize}
+			\item<5-> Doesn't actually understand recipe structure
+			\item<6-> All ingredients should be mentioned up front
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{People aren't human-oriented either}
+	\includegraphics[width=.9\textwidth]{images/AIcake.jpg}
+
+	{\tiny \href{http://ellis.scot/2017/05/baking-with-a-recipe-written-by-a-neural-network/}{http://ellis.scot/2017/05/baking-with-a-recipe-written-by-a-neural-network/}}
+\end{frame}
+
+\begin{frame}{How to achieve these goals}
 	% no strategy is a bad strategy
 	% they are just tools
 	% the trick is figuring out when they are useful
+	\begin{itemize}
+		\item What strategy to pick given these goals?	\pause
+		\item No strategy is inherently good or bad \pause
+		\item They are tools, and like any tools, the task is to figure out when and where they are useful
+	\end{itemize}
 \end{frame}
 
-\begin{frame}{3 strategies}
+\begin{frame}{A general toolkit}
+	Let's consider some strategies we can use for NLG: \pause
+
 	\begin{itemize}
-		\item hardcode/exhaustive listing
-		\item rules/principled based
-		\item machine learning
+		\item exhaustive listing \pause
+		\item rules and/or principles \pause
+		\item Machine Learning \pause
 	\end{itemize}
 
 	\pause
@@ -132,6 +196,8 @@
 \begin{frame}{Outline of talk}
 	\tableofcontents
 \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Irregular Verbs}
 \begin{frame}{Verb Inflection}
@@ -280,6 +346,7 @@
 	\end{itemize}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Pronouns}
 \begin{frame}{Anaphora}
@@ -442,6 +509,7 @@
 	\end{itemize}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Sentence Selection}
 \begin{frame}{Grammaticality vs Style}
@@ -497,10 +565,18 @@
 \begin{frame}{Did somebody say "weight"?}
 	\begin{itemize}
 		\item Sentence selection involves the interaction between several features
-		\item The importance of these features is variable 
+		\item The importance of these features is variable
+		\item We would like to fine tune language style for each user \pause
+		\item This feels like a job for Machine Learning
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{}
+	blah blah more sentence selection stuff
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Conclusion}
 \begin{frame}{Perspectives redux}
@@ -517,7 +593,32 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Chimerical problems}
+	Problems are often multi-faceted:
 
+	\begin{itemize}
+		\item Verb inflection does have regular rules
+		\item Antecedent saliency for pronominal reference may have multiple factors
+		\item Sentence selection features require principled analysis
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Chimerical solutions}
+	Things we've learned creating advanced NLG:
+
+	\begin{itemize}
+		\item Strategies for tackling problems should not (always) be monolithic
+		\item Utilize whatever tools you have	\pause
+		\item but make sure those strategies are contingent on thoroughly assessing the nature of the problems \pause
+		\item which often requires having domain knowledge \pause
+		\begin{itemize}
+			\item go learn about what others have done in your field \pause
+			\item from various perspectives: e.g. linguistics, comp sci, journalism,\ldots
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\plain{}{Thank you! \\ Questions?}
 
 
 % \begin{frame}[fragile]
@@ -658,7 +759,7 @@
 % \plain{Dark background}{\vspace{-2em}\begin{center}\includegraphics[width=\textwidth]{images/valley.jpg}\end{center}}
 
 
-\begin{frame}{Summary}
+\begin{frame}{Beamer theme}
 
   Get the source of this theme and the demo presentation from
 
@@ -672,6 +773,6 @@
 
 \end{frame}
 
-\plain{}{Questions?}
+% \plain{}{Questions?}
 
 \end{document}

@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Overview}{2}{0}{1}
-\beamer@sectionintoc {2}{Irregular Verbs}{21}{0}{2}
-\beamer@sectionintoc {3}{Pronouns}{30}{0}{3}
-\beamer@sectionintoc {4}{Sentence Selection}{54}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{63}{0}{5}
+\beamer@sectionintoc {2}{Irregular Verbs}{39}{0}{2}
+\beamer@sectionintoc {3}{Pronouns}{48}{0}{3}
+\beamer@sectionintoc {4}{Sentence Selection}{72}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{83}{0}{5}
