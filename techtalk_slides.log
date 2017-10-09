@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  9 OCT 2017 11:33
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  9 OCT 2017 13:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1759,7 +1759,9 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 21.
 
-(./techtalk_slides.nav) [1
+(./techtalk_slides.nav)
+File: images/ns-bg.jpg Graphic file (type QTm)
+ <use  "images/ns-bg.jpg" > [1
 
 ] [2
 
@@ -1771,14 +1773,14 @@ LaTeX Info: Redefining \includegraphics on input line 21.
 
 ] [6
 
-] [7
+]
+[7
 
 ]
 File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
 File: images/tay.png Graphic file (type QTm)
-
-<use  "images/tay.png" >
+ <use  "images/tay.png" >
 Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
@@ -2127,10 +2129,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35829 strings out of 493005
- 724376 string characters out of 6134596
- 849581 words of memory out of 5000000
- 39149 multiletter control sequences out of 15000+600000
+ 35832 strings out of 493005
+ 724433 string characters out of 6134596
+ 849562 words of memory out of 5000000
+ 39151 multiletter control sequences out of 15000+600000
  7138 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,91p,10385b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
