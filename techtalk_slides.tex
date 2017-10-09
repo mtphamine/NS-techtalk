@@ -20,6 +20,8 @@
 
 \begin{document}
 
+% \plain{}{\includegraphics[width=\textwidth]{images/zelda.jpg}}
+
 \maketitle
 
 \section{Overview}
@@ -189,8 +191,9 @@
 
 \begin{frame}{Perspective}
 	What do you see? How would you recreate this data distribution?
-
-	\includegraphics[width=.85\textwidth]{images/circleplot.png}
+	\begin{center}
+		\includegraphics[width=.8\textwidth]{images/circleplot.png}
+	\end{center}
 \end{frame}
 
 \begin{frame}{Outline of talk}
@@ -403,6 +406,27 @@
 	\end{itemize}
 \end{frame}
 
+\begin{frame}{Entity reference: no ambiguity}
+	\begin{quote}
+		In later years, holding forth to an interviewer or to an audience of aging fans at a comic book convention, Sam Clay liked to declare, apropos of \textbf{Sam Clay} and Joe Kavalier's greatest creation, that back when \textbf{Sam Clay} was a boy, sealed and hog-tied inside the airtight vessel known as Brooklyn, New York, \textbf{Sam Clay} had been haunted by dreams of Harry Houdini. "To \textbf{Sam Clay}, Clark Kent in a phone booth and Houdini in a packing crate, \textbf{Clark Kent and Houdini} were one and the same thing,"[...]
+
+		% \pause
+		\medskip
+		-Michael Chabon, The Amazing Adventures of Kavalier \& Clay: The pronoun-less edition
+	\end{quote}
+
+	\begin{itemize}
+		\item Using unambiguous reference sounds clunky and un-human \pause
+		\item Like the system has no idea what it's talking about
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Entity reference: no ambiguity}
+	\begin{center}
+		\includegraphics[width=.8\textwidth]{images/zelda.jpg}
+	\end{center}
+\end{frame}
+
 \begin{frame}{Picking a strategy}
 	\begin{itemize}
 		\item Strawman argument: hardcoding every possible instance to use a pronoun is out 	\pause
@@ -571,10 +595,52 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{}
-	blah blah more sentence selection stuff
+\begin{frame}{Let the machine figure out what matters}
+	Steps to utilizing Machine Learning for sentence selection:
+
+	\begin{itemize}
+		\item Determine list of features that matter for style
+		\item Build independent weighers for features
+		\item Collect data
+		\item Train the model on the data with respect to the features
+		\item Use the model to select the best candidate sentence
+		\item Lather, rinse, repeat
+	\end{itemize}
 \end{frame}
 
+\begin{frame}{Modularity}
+	\begin{itemize}
+		\item Hand-tuning sentence selection got unscaleable the more complex our NLG system got
+		\item Humans are bad at keeping track of all possible permutations of interactions \pause
+		\begin{itemize}
+			\item Maybe we prefer active vs passive verbs, but what if that results in longer sentences? \pause
+		\end{itemize}
+		\item Machines are much better at working with several (independent) features
+		\item Humans are only responsible for building out each new feature
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Tunability}
+	\begin{itemize}
+		\item While grammaticality is essentially uniform, style varies
+		\item Trying to hand-tune sentence-selection for each user would be difficult	\pause
+		\begin{itemize}
+			\item how to make a change in one place without breaking it elsewhere?	\pause
+		\end{itemize}
+		\item Given an ML model, we can retrain the feature weights for each user
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Lessons and caveats}
+	\begin{itemize}
+		\item Machine Learning is a good strategy for sentence selection
+		\item Style is variable and involves the interaction between several features \pause
+		\item \alert{Caveat:} We need to be able to determine those features and how to track them
+		\begin{itemize}
+			\item which often requires an understanding of the domain
+		\end{itemize}
+	\end{itemize}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
