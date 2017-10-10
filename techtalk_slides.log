@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  9 OCT 2017 13:02
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  10 OCT 2017 11:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1774,6 +1774,15 @@ File: images/ns-bg.jpg Graphic file (type QTm)
 ] [6
 
 ]
+File: images/zelda.jpg Graphic file (type QTm)
+
+<use  "images/zelda.jpg" >
+File: images/tay.png Graphic file (type QTm)
+ <use  "images/tay.png" >
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
+[][][]  
+ []
+
 [7
 
 ]
@@ -1800,20 +1809,20 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 
 ]
 File: images/zelda.jpg Graphic file (type QTm)
- <use  "images/zelda.jpg" >
+ <use  "images/zelda.jpg" > [10
+
+]
+File: images/zelda.jpg Graphic file (type QTm)
+ <use  "images/zelda.jpg" > [11
+
+]
 File: images/tay.png Graphic file (type QTm)
- <use  "images/tay.png" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
-[][][]  
- []
 
-[10
+<use  "images/tay.png" > [12
 
-] [11
-
-] [12
-
-] [13
+]
+File: images/tay.png Graphic file (type QTm)
+ <use  "images/tay.png" > [13
 
 ] [14
 
@@ -1821,14 +1830,15 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 
 ] [16
 
-] [17
+]
+[17
 
 ] [18
 
 ] [19
 
 ]
-Overfull \vbox (9.94073pt too high) detected at line 140
+Overfull \vbox (9.94073pt too high) detected at line 162
  []
 
 [20
@@ -1881,7 +1891,7 @@ File: images/circleplot.png Graphic file (type QTm)
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/m/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/m/n' instead on input line 
-225.
+249.
 
 [40
 
@@ -1911,33 +1921,33 @@ ex-text;"
 . <->"[fonts/FiraSans-Regular.ttf]/OT:script=latn;language=DFLT;+tnum;+smcp;map
 ping=tex-text;"
 .................................................
-LaTeX Info: Redefining \sffamily on input line 286.
-LaTeX Font Info:    Try loading font information for U+msa on input line 286.
+LaTeX Info: Redefining \sffamily on input line 310.
+LaTeX Font Info:    Try loading font information for U+msa on input line 310.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 286.
+LaTeX Font Info:    Try loading font information for U+msb on input line 310.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \sffamily on input line 286.
+LaTeX Info: Redefining \sffamily on input line 310.
  [42
 
 ]
-LaTeX Info: Redefining \sffamily on input line 286.
-LaTeX Info: Redefining \sffamily on input line 286.
+LaTeX Info: Redefining \sffamily on input line 310.
+LaTeX Info: Redefining \sffamily on input line 310.
  [43
 
 ]
-LaTeX Info: Redefining \sffamily on input line 329.
-LaTeX Info: Redefining \sffamily on input line 329.
+LaTeX Info: Redefining \sffamily on input line 353.
+LaTeX Info: Redefining \sffamily on input line 353.
 
 [44
 
 ]
-LaTeX Info: Redefining \sffamily on input line 329.
-LaTeX Info: Redefining \sffamily on input line 329.
+LaTeX Info: Redefining \sffamily on input line 353.
+LaTeX Info: Redefining \sffamily on input line 353.
  [45
 
 ] [46
@@ -1947,10 +1957,10 @@ LaTeX Info: Redefining \sffamily on input line 329.
 ] [48
 
 ]
-LaTeX Info: Redefining \sffamily on input line 391.
-LaTeX Info: Redefining \sffamily on input line 391.
+LaTeX Info: Redefining \sffamily on input line 426.
+LaTeX Info: Redefining \sffamily on input line 426.
 
-Overfull \hbox (0.6751pt too wide) in paragraph at lines 391--391
+Overfull \hbox (0.6751pt too wide) in paragraph at lines 426--426
  [][] 
  []
 
@@ -1960,7 +1970,7 @@ Overfull \hbox (0.6751pt too wide) in paragraph at lines 391--391
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/bx/n' instead on input line
- 407.
+ 442.
 
 [50
 
@@ -2057,18 +2067,12 @@ File: images/zelda.jpg Graphic file (type QTm)
 
 ] [94
 
-]
-File: images/circleplot.png Graphic file (type QTm)
- <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 660
- []
-
-[95
+] [95
 
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 660
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [96
@@ -2076,7 +2080,7 @@ Overfull \vbox (1.02867pt too high) detected at line 660
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 660
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [97
@@ -2084,12 +2088,18 @@ Overfull \vbox (1.02867pt too high) detected at line 660
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 660
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [98
 
-] [99
+]
+File: images/circleplot.png Graphic file (type QTm)
+ <use  "images/circleplot.png" >
+Overfull \vbox (1.02867pt too high) detected at line 717
+ []
+
+[99
 
 ] [100
 
@@ -2103,10 +2113,12 @@ Overfull \vbox (1.02867pt too high) detected at line 660
 
 ] [105
 
+] [106
+
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 20.0pt on input line 840.
- [106
+(Font)              scaled to size 20.0pt on input line 897.
+ [107
 
 ]
 \tf@nav=\write9
@@ -2118,23 +2130,23 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 \tf@snm=\write11
 \openout11 = `techtalk_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 844.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 844.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 901.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 901.
  (./techtalk_slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 844.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 844.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 901.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 901.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35832 strings out of 493005
- 724433 string characters out of 6134596
- 849562 words of memory out of 5000000
- 39151 multiletter control sequences out of 15000+600000
+ 35836 strings out of 493005
+ 724469 string characters out of 6134596
+ 849696 words of memory out of 5000000
+ 39155 multiletter control sequences out of 15000+600000
  7138 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,91p,10385b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on techtalk_slides.pdf (106 pages).
+Output written on techtalk_slides.pdf (107 pages).

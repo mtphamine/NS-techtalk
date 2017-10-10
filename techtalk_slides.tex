@@ -59,9 +59,11 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Limitations of NLG}
+\begin{frame}{NLG Limitations}
+    \begin{center}
+    	\includegraphics[width=.5\textwidth]{images/zelda.jpg}
+    \end{center}
 
-    % TODO maybe: Split into two slides w/ examples?
 	\begin{itemize}
 		\item Video games conversations have complex decision trees	\pause
 		\begin{itemize}
@@ -69,9 +71,16 @@
 			\item ...but often is mad-libby
 			\item Flexibility and linguistic creativity is limited and/or unscaleable in production
 		\end{itemize}
+	\end{itemize}
+\end{frame}
 
-		\pause
+\begin{frame}{NLG Limitations}
+	% \pause
+	\begin{center}
+		\includegraphics[width=.65\textwidth]{images/tay.png}
+	\end{center}
 
+	\begin{itemize}
 		\item Neural nets can learn from data to generate new language\pause
 		\begin{itemize}
 			\item Can often produce highly natural and nuanced language
@@ -346,22 +355,32 @@
 \begin{frame}{Best strategy}
     %  TODO: these slides are too wordy, simplify
 	\begin{itemize}
-		\item There are rules for regular morphology
-		\item Which verbs are irregular seems arbitrary
-		\item How irregular verbs inflect also seems arbitrary
-		\item Rules might be tough to derive
-		\item Machine Learning may work, but do we actually want to overfit data?
+		% \item There are rules for regular morphology
+		\item Irregulars are arbitrary
+		\begin{itemize}
+			\item Which verbs?
+			\item How do they conjugate?
+		\end{itemize}
+		% \item Rules might be tough to derive
+		\item Machine Learning may work
+		\begin{itemize}
+			\item prediction or fitting?	%by which I mean are we trying to predict irregulars or simply capture the ones we know about
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{Finite problem set}
 	\begin{itemize}
-		\item Wikipedia lists about 200 English irregular verbs, including \alert{shrive}, \alert{stave}, \alert{gild}
-		\item This is finite set, and most words aren't even that relevant
-		\item Verb dictionaries exist
-		\item There are subgroups within the irregulars
-		\item It is feasible to exhaustively hardcode a list of all irregulars without rules or ML
+		\item Wikipedia lists about 200 English irregular verbs
+		\begin{itemize}
+			\item including \alert{shrive}, \alert{stave}, \alert{gild}
+		\end{itemize}
+		\item This is a finite set%, and most words aren't even that relevant
+		% \item Verb dictionaries exist
+		% \item There are subgroups within the irregulars
+		\item feasible to hardcode a list of all irregulars %without rules or ML
 		\item We can exactly fit the data without over- or undergeneralizing
+		\item Prediction is less important
 	\end{itemize}
 \end{frame}
 
@@ -665,7 +684,7 @@
 \begin{frame}{Finally, just throw ML at it}
     \pause
     While the core decision is an ML problem, the inputs to that
-    decision are still based in linguistic principles
+    decision are still based on linguistic principles
 \end{frame}
 
 
