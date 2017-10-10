@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  10 OCT 2017 11:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  10 OCT 2017 13:04
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1777,8 +1777,8 @@ File: images/ns-bg.jpg Graphic file (type QTm)
 File: images/zelda.jpg Graphic file (type QTm)
 
 <use  "images/zelda.jpg" >
-File: images/tay.png Graphic file (type QTm)
- <use  "images/tay.png" >
+File: images/tay.jpg Graphic file (type QTm)
+ <use  "images/tay.jpg" >
 Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
@@ -1788,8 +1788,8 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 ]
 File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
-File: images/tay.png Graphic file (type QTm)
- <use  "images/tay.png" >
+File: images/tay.jpg Graphic file (type QTm)
+ <use  "images/tay.jpg" >
 Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
@@ -1799,8 +1799,8 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 ]
 File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
-File: images/tay.png Graphic file (type QTm)
- <use  "images/tay.png" >
+File: images/tay.jpg Graphic file (type QTm)
+ <use  "images/tay.jpg" >
 Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
@@ -1816,13 +1816,13 @@ File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" > [11
 
 ]
-File: images/tay.png Graphic file (type QTm)
+File: images/tay.jpg Graphic file (type QTm)
 
-<use  "images/tay.png" > [12
+<use  "images/tay.jpg" > [12
 
 ]
-File: images/tay.png Graphic file (type QTm)
- <use  "images/tay.png" > [13
+File: images/tay.jpg Graphic file (type QTm)
+ <use  "images/tay.jpg" > [13
 
 ] [14
 
