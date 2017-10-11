@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  11 OCT 2017 16:29
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  11 OCT 2017 13:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1779,7 +1779,7 @@ File: images/zelda.jpg Graphic file (type QTm)
 <use  "images/zelda.jpg" >
 File: images/tay.jpg Graphic file (type QTm)
  <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
 
@@ -1790,7 +1790,7 @@ File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
 File: images/tay.jpg Graphic file (type QTm)
  <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
 
@@ -1801,7 +1801,7 @@ File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
 File: images/tay.jpg Graphic file (type QTm)
  <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 60--60
 [][][]  
  []
 
@@ -1838,7 +1838,7 @@ File: images/tay.jpg Graphic file (type QTm)
 ] [19
 
 ]
-Overfull \vbox (9.94073pt too high) detected at line 164
+Overfull \vbox (9.94073pt too high) detected at line 162
  []
 
 [20
@@ -1891,7 +1891,7 @@ File: images/circleplot.png Graphic file (type QTm)
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/m/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/m/n' instead on input line 
-251.
+249.
 
 [40
 
@@ -1921,33 +1921,33 @@ ex-text;"
 . <->"[fonts/FiraSans-Regular.ttf]/OT:script=latn;language=DFLT;+tnum;+smcp;map
 ping=tex-text;"
 .................................................
-LaTeX Info: Redefining \sffamily on input line 315.
-LaTeX Font Info:    Try loading font information for U+msa on input line 315.
+LaTeX Info: Redefining \sffamily on input line 310.
+LaTeX Font Info:    Try loading font information for U+msa on input line 310.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 315.
+LaTeX Font Info:    Try loading font information for U+msb on input line 310.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \sffamily on input line 315.
+LaTeX Info: Redefining \sffamily on input line 310.
  [42
 
 ]
-LaTeX Info: Redefining \sffamily on input line 315.
-LaTeX Info: Redefining \sffamily on input line 315.
+LaTeX Info: Redefining \sffamily on input line 310.
+LaTeX Info: Redefining \sffamily on input line 310.
  [43
 
 ]
-LaTeX Info: Redefining \sffamily on input line 358.
-LaTeX Info: Redefining \sffamily on input line 358.
+LaTeX Info: Redefining \sffamily on input line 353.
+LaTeX Info: Redefining \sffamily on input line 353.
 
 [44
 
 ]
-LaTeX Info: Redefining \sffamily on input line 358.
-LaTeX Info: Redefining \sffamily on input line 358.
+LaTeX Info: Redefining \sffamily on input line 353.
+LaTeX Info: Redefining \sffamily on input line 353.
  [45
 
 ] [46
@@ -1956,35 +1956,35 @@ LaTeX Info: Redefining \sffamily on input line 358.
 
 ] [48
 
-] [49
-
 ]
-LaTeX Info: Redefining \sffamily on input line 427.
-LaTeX Info: Redefining \sffamily on input line 427.
+LaTeX Info: Redefining \sffamily on input line 426.
+LaTeX Info: Redefining \sffamily on input line 426.
 
-Overfull \hbox (0.6751pt too wide) in paragraph at lines 427--427
+Overfull \hbox (0.6751pt too wide) in paragraph at lines 426--426
  [][] 
  []
 
-[50
+[49
 
 ]
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/bx/n' instead on input line
- 443.
+ 442.
 
-[51
+[50
+
+] [51
 
 ] [52
 
 ] [53
 
-] [54
-
 ]
 File: images/zelda.jpg Graphic file (type QTm)
- <use  "images/zelda.jpg" > [55
+ <use  "images/zelda.jpg" > [54
+
+] [55
 
 ] [56
 
@@ -1992,10 +1992,10 @@ File: images/zelda.jpg Graphic file (type QTm)
 
 ] [58
 
-] [59
-
 ]
-[60
+[59
+
+] [60
 
 ] [61
 
@@ -2023,10 +2023,10 @@ File: images/zelda.jpg Graphic file (type QTm)
 
 ] [73
 
-] [74
-
 ]
-[75
+[74
+
+] [75
 
 ] [76
 
@@ -2054,10 +2054,10 @@ File: images/zelda.jpg Graphic file (type QTm)
 
 ] [88
 
-] [89
-
 ]
-[90
+[89
+
+] [90
 
 ] [91
 
@@ -2069,12 +2069,18 @@ File: images/zelda.jpg Graphic file (type QTm)
 
 ] [95
 
-] [96
+]
+File: images/circleplot.png Graphic file (type QTm)
+ <use  "images/circleplot.png" >
+Overfull \vbox (1.02867pt too high) detected at line 717
+ []
+
+[96
 
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 726
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [97
@@ -2082,7 +2088,7 @@ Overfull \vbox (1.02867pt too high) detected at line 726
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 726
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [98
@@ -2090,18 +2096,12 @@ Overfull \vbox (1.02867pt too high) detected at line 726
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 726
+Overfull \vbox (1.02867pt too high) detected at line 717
  []
 
 [99
 
-]
-File: images/circleplot.png Graphic file (type QTm)
- <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 726
- []
-
-[100
+] [100
 
 ] [101
 
@@ -2115,12 +2115,10 @@ Overfull \vbox (1.02867pt too high) detected at line 726
 
 ] [106
 
-] [107
-
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 20.0pt on input line 906.
- [108
+(Font)              scaled to size 20.0pt on input line 897.
+ [107
 
 ]
 \tf@nav=\write9
@@ -2132,11 +2130,11 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 \tf@snm=\write11
 \openout11 = `techtalk_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 910.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 910.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 901.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 901.
  (./techtalk_slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 910.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 910.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 901.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 901.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2145,10 +2143,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  35836 strings out of 493005
  724469 string characters out of 6134596
- 849699 words of memory out of 5000000
+ 849696 words of memory out of 5000000
  39155 multiletter control sequences out of 15000+600000
  7138 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,91p,10385b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on techtalk_slides.pdf (108 pages).
+Output written on techtalk_slides.pdf (107 pages).
