@@ -1,5 +1,5 @@
 \beamer@sectionintoc {1}{Overview}{2}{0}{1}
 \beamer@sectionintoc {2}{Irregular Verbs}{39}{0}{2}
-\beamer@sectionintoc {3}{Pronouns}{48}{0}{3}
-\beamer@sectionintoc {4}{Sentence Selection}{75}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{95}{0}{5}
+\beamer@sectionintoc {3}{Pronouns}{49}{0}{3}
+\beamer@sectionintoc {4}{Sentence Selection}{76}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{96}{0}{5}

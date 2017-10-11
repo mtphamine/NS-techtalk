@@ -23,6 +23,7 @@
 % \plain{}{\includegraphics[width=\textwidth]{images/zelda.jpg}}
 {\usebackgroundtemplate{\includegraphics[height=\paperheight]{images/ns-bg.jpg}} \maketitle}
 
+% Clayton
 \section{Overview}
 \begin{frame}{What is Quill?}
     Quill is an \alert{Advanced Natural Language Generation (NLG)} platform
@@ -44,6 +45,7 @@
 		\item What about all those neural nets generating facebook posts that sound eeriely like my previous posts?	\end{itemize}
 \end{frame}
 
+% Mike
 \begin{frame}{Other NLG}
 	\alert{trigger warning: offensive language}
 	\pause
@@ -301,6 +303,9 @@
 		\end{multicols}
 	\end{table}
 	\pause
+
+	% Clayton
+
 	\begin{itemize}
 		\item Only 3rd person singular is different -- this looks easy!
 		\begin{itemize}
@@ -353,20 +358,15 @@
 \end{frame}
 
 \begin{frame}{Best strategy}
-    %  TODO: these slides are too wordy, simplify
+	% Ok, so what strategy should we try to apply?
+	Irregular verbs are arbitrary and follow no underlying pattern
+	\pause
 	\begin{itemize}
-		% \item There are rules for regular morphology
-		\item Irregulars are arbitrary
-		\begin{itemize}
-			\item Which verbs?
-			\item How do they conjugate?
-		\end{itemize}
-		% \item Rules might be tough to derive
-		\item Machine Learning may work
-		\begin{itemize}
-			\item prediction or fitting?	%by which I mean are we trying to predict irregulars or simply capture the ones we know about
-		\end{itemize}
+		\item exhaustive listing
+		\item rules and/or principles
+		\item Machine Learning
 	\end{itemize}
+
 \end{frame}
 
 \begin{frame}{Finite problem set}
@@ -378,14 +378,15 @@
 		\item This is a finite set%, and most words aren't even that relevant
 		% \item Verb dictionaries exist
 		% \item There are subgroups within the irregulars
-		\item feasible to hardcode a list of all irregulars %without rules or ML
-		\item We can exactly fit the data without over- or undergeneralizing
-		\item Prediction is less important
+		% \item feasible to hardcode a list of all irregulars %without rules or ML
+		% \item We can exactly fit the data without over- or undergeneralizing
+		\item Prediction is not important
 	\end{itemize}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Mike
 \section{Pronouns}
 \begin{frame}{Anaphora}
 	\begin{description}
@@ -475,11 +476,12 @@
 	\end{itemize}
 \end{frame}
 
+% Clayton
 \begin{frame}{A principled approach}
 	\begin{itemize}
 		\item The distribution of pronouns is not arbitrary
 		\item We actually probably have a pretty good idea of when we can use pronouns \pause
-		\item They seem to \textbf{corefer} with recently mentioned entities of that match their description \pause
+		\item They seem to \textbf{corefer} with recently mentioned entities that match their description \pause
 		\item Let's try a rule:
 	\end{itemize}
 
@@ -546,13 +548,16 @@
 	\end{itemize}
 
 \end{frame}
-
 \begin{frame}{Tracking saliency}
+	An advanced NLG system should track saliency in order to use pronouns
 	\begin{itemize}
-		\item An advanced NLG system should track saliency in order to use pronouns
-		\item We've seen that the syntactic structure strongly influences saliency \pause
 		\item Pronoun distribution appears to be based on known principles
-		\item so we should ensure that the AI system also shares those principles
+		\item so we should ensure that the AI system also shares those principles \vspace{10pt}
+		 \pause
+
+		\item We've seen that the syntactic structure strongly influences saliency
+		\item We can use Quill's understanding of a sentence's underlying
+			structure to emulate this linguistic phenomenon
 	\end{itemize}
 \end{frame}
 
@@ -631,6 +636,17 @@
 			\item ...	\pause
 		\end{itemize}
 		\item These axes seem largely independent
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Extensibility}
+	\begin{itemize}
+		\item Hand-tuning sentence selection got unscaleable as the complexity
+            and breadth of possible sentences in the system increased
+		\item Humans are bad at keeping track of all possible permutations of interactions \pause
+		\begin{itemize}
+			\item Maybe we prefer active vs passive verbs, but what if that results in longer sentences? \pause
+		\end{itemize}
 		\item Different users also vary in how strongly they weight each factor
 	\end{itemize}
 \end{frame}
@@ -657,19 +673,6 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{Extensibility}
-	\begin{itemize}
-		\item Hand-tuning sentence selection got unscaleable as the complexity
-            and breadth of possible sentences in the system increased
-		\item Humans are bad at keeping track of all possible permutations of interactions \pause
-		\begin{itemize}
-			\item Maybe we prefer active vs passive verbs, but what if that results in longer sentences? \pause
-		\end{itemize}
-		\item Machines are much better at working with several (independent) features
-		\item Humans are only responsible for building out each new feature
-	\end{itemize}
-\end{frame}
-
 % \begin{frame}{Tunability}
 % 	\begin{itemize}
 % 		\item While grammaticality is essentially uniform, style varies
@@ -682,9 +685,14 @@
 % \end{frame}
 
 \begin{frame}{Finally, just throw ML at it}
-    \pause
+
+	\begin{itemize}
+		\item Machines are great at working with these independent features
+		\item Humans are still responsible for building out each new feature\pause
+	\end{itemize}
     While the core decision is an ML problem, the inputs to that
     decision are still based on linguistic principles
+
 \end{frame}
 
 
@@ -701,6 +709,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Mike
 \section{Conclusion}
 \begin{frame}{Perspectives redux}
 	What do you see?
