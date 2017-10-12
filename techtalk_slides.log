@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  12 OCT 2017 11:08
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  12 OCT 2017 14:27
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1596,31 +1596,31 @@ runsystem(rm techtalk_slides.aex)...executed.
 (./techtalk_slides.aux)
 \openout1 = `techtalk_slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1658,7 +1658,7 @@ LaTeX Font Info:    ... okay on input line 21.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box119
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1668,70 +1668,70 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count335
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./techtalk_slides.out) (./techtalk_slides.out)
 \@outlinefile=\write8
 \openout8 = `techtalk_slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 21.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 22.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 21.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSans-Light.ttf(0)/bx/n on input
- line 21.
+ line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/FiraSans-Light.ttf(0)/bx/n on input
- line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 21.
+ line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/FiraSans-Light.ttf(0)/m/n on input 
-line 21.
+line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSans-Light.ttf(0)/m/n on input
- line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 21.
+ line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/FiraSans-Light.ttf(0)/m/it on input
- line 21.
+ line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/FiraSans-Light.ttf(0)/m/it on inpu
-t line 21.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 21.
+t line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/FiraMono-Regular.ttf(0)/m/n on inpu
-t line 21.
+t line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/FiraMono-Regular.ttf(0)/m/n on inpu
-t line 21.
+t line 22.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/FiraSans-Light.ttf(0)/m/n --> TU/FiraSans-Light.ttf(
-0)/bx/n on input line 21.
+0)/bx/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/FiraSans-Light.ttf(0)/m/it --> TU/FiraSans-Light.ttf
-(0)/bx/it on input line 21.
+(0)/bx/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 21.
+(Font)                  OT1/cmss/bx/n --> TU/lmr/bx/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/FiraSans-Light.ttf(0)/bx/n --> TU/FiraSans-Light.ttf
-(0)/bx/n on input line 21.
+(0)/bx/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/FiraSans-Light.ttf(0)/m/n --> TU/FiraSans-Light.ttf(
-0)/bx/n on input line 21.
+0)/bx/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/FiraSans-Light.ttf(0)/m/it --> TU/FiraSans-Light.ttf
-(0)/bx/it on input line 21.
+(0)/bx/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/FiraMono-Regular.ttf(0)/m/n --> TU/FiraMono-Regular.
-ttf(0)/bx/n on input line 21.
+ttf(0)/bx/n on input line 22.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1757,7 +1757,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 21.
+LaTeX Info: Redefining \includegraphics on input line 22.
 
 (./techtalk_slides.nav)
 File: images/ns-bg.jpg Graphic file (type QTm)
@@ -1777,9 +1777,9 @@ File: images/ns-bg.jpg Graphic file (type QTm)
 File: images/zelda.jpg Graphic file (type QTm)
 
 <use  "images/zelda.jpg" >
-File: images/tay.jpg Graphic file (type QTm)
- <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+File: images/tay2.jpg Graphic file (type QTm)
+ <use  "images/tay2.jpg" >
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 64--64
 [][][]  
  []
 
@@ -1788,9 +1788,9 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
 ]
 File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
-File: images/tay.jpg Graphic file (type QTm)
- <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+File: images/tay2.jpg Graphic file (type QTm)
+ <use  "images/tay2.jpg" >
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 64--64
 [][][]  
  []
 
@@ -1799,9 +1799,9 @@ Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
 ]
 File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" >
-File: images/tay.jpg Graphic file (type QTm)
- <use  "images/tay.jpg" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 62--62
+File: images/tay2.jpg Graphic file (type QTm)
+ <use  "images/tay2.jpg" >
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 64--64
 [][][]  
  []
 
@@ -1816,22 +1816,22 @@ File: images/zelda.jpg Graphic file (type QTm)
  <use  "images/zelda.jpg" > [11
 
 ]
-File: images/tay.jpg Graphic file (type QTm)
+File: images/tay2.jpg Graphic file (type QTm)
 
-<use  "images/tay.jpg" > [12
+<use  "images/tay2.jpg" > [12
 
 ]
-File: images/tay.jpg Graphic file (type QTm)
- <use  "images/tay.jpg" > [13
+File: images/tay2.jpg Graphic file (type QTm)
+ <use  "images/tay2.jpg" > [13
 
 ] [14
 
 ] [15
 
-] [16
-
 ]
-[17
+[16
+
+] [17
 
 ] [18
 
@@ -1842,7 +1842,7 @@ File: images/tay.jpg Graphic file (type QTm)
 ] [21
 
 ]
-Overfull \vbox (9.94073pt too high) detected at line 168
+Overfull \vbox (9.94073pt too high) detected at line 171
  []
 
 [22
@@ -1895,7 +1895,7 @@ File: images/circleplot.png Graphic file (type QTm)
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/m/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/m/n' instead on input line 
-255.
+258.
 
 [42
 
@@ -1925,33 +1925,33 @@ ex-text;"
 . <->"[fonts/FiraSans-Regular.ttf]/OT:script=latn;language=DFLT;+tnum;+smcp;map
 ping=tex-text;"
 .................................................
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Font Info:    Try loading font information for U+msa on input line 319.
+LaTeX Info: Redefining \sffamily on input line 322.
+LaTeX Font Info:    Try loading font information for U+msa on input line 322.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 319.
+LaTeX Font Info:    Try loading font information for U+msb on input line 322.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \sffamily on input line 319.
+LaTeX Info: Redefining \sffamily on input line 322.
  [44
 
 ]
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
+LaTeX Info: Redefining \sffamily on input line 322.
+LaTeX Info: Redefining \sffamily on input line 322.
  [45
 
 ]
-LaTeX Info: Redefining \sffamily on input line 362.
-LaTeX Info: Redefining \sffamily on input line 362.
+LaTeX Info: Redefining \sffamily on input line 365.
+LaTeX Info: Redefining \sffamily on input line 365.
 
 [46
 
 ]
-LaTeX Info: Redefining \sffamily on input line 362.
-LaTeX Info: Redefining \sffamily on input line 362.
+LaTeX Info: Redefining \sffamily on input line 365.
+LaTeX Info: Redefining \sffamily on input line 365.
  [47
 
 ] [48
@@ -1963,10 +1963,10 @@ LaTeX Info: Redefining \sffamily on input line 362.
 ] [51
 
 ]
-LaTeX Info: Redefining \sffamily on input line 431.
-LaTeX Info: Redefining \sffamily on input line 431.
+LaTeX Info: Redefining \sffamily on input line 434.
+LaTeX Info: Redefining \sffamily on input line 434.
 
-Overfull \hbox (0.6751pt too wide) in paragraph at lines 431--431
+Overfull \hbox (0.6751pt too wide) in paragraph at lines 434--434
  [][] 
  []
 
@@ -1976,7 +1976,7 @@ Overfull \hbox (0.6751pt too wide) in paragraph at lines 431--431
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/bx/n' instead on input line
- 447.
+ 450.
 
 [53
 
@@ -2078,7 +2078,7 @@ File: images/zelda.jpg Graphic file (type QTm)
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 730
+Overfull \vbox (1.02867pt too high) detected at line 733
  []
 
 [99
@@ -2086,7 +2086,7 @@ Overfull \vbox (1.02867pt too high) detected at line 730
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 730
+Overfull \vbox (1.02867pt too high) detected at line 733
  []
 
 [100
@@ -2094,7 +2094,7 @@ Overfull \vbox (1.02867pt too high) detected at line 730
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 730
+Overfull \vbox (1.02867pt too high) detected at line 733
  []
 
 [101
@@ -2102,7 +2102,7 @@ Overfull \vbox (1.02867pt too high) detected at line 730
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 730
+Overfull \vbox (1.02867pt too high) detected at line 733
  []
 
 [102
@@ -2123,7 +2123,7 @@ Overfull \vbox (1.02867pt too high) detected at line 730
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 20.0pt on input line 910.
+(Font)              scaled to size 20.0pt on input line 913.
  [110
 
 ]
@@ -2136,11 +2136,11 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 \tf@snm=\write11
 \openout11 = `techtalk_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 914.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 914.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 917.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 917.
  (./techtalk_slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 914.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 914.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 917.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 917.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2148,7 +2148,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  35863 strings out of 493005
- 725388 string characters out of 6134596
+ 725390 string characters out of 6134596
  849701 words of memory out of 5000000
  39182 multiletter control sequences out of 15000+600000
  7138 words of font info for 63 fonts, out of 8000000 for 9000
