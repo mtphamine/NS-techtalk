@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  12 OCT 2017 16:44
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  13 OCT 2017 11:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1774,51 +1774,58 @@ File: images/ns-bg.jpg Graphic file (type QTm)
 ] [6
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
+File: images/zeldabitch.jpg Graphic file (type QTm)
 
-<use  "images/zeldapoop.png" >
+<use  "images/zeldabitch.jpg" >
 File: images/tay3.png Graphic file (type QTm)
  <use  "images/tay3.png" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 65--65
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 66--66
 [][][]  
  []
 
 [7
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
- <use  "images/zeldapoop.png" >
+File: images/zeldabitch.jpg Graphic file (type QTm)
+ <use  "images/zeldabitch.jpg" >
 File: images/tay3.png Graphic file (type QTm)
  <use  "images/tay3.png" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 65--65
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 66--66
 [][][]  
  []
 
 [8
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
- <use  "images/zeldapoop.png" >
+File: images/zeldabitch.jpg Graphic file (type QTm)
+ <use  "images/zeldabitch.jpg" >
 File: images/tay3.png Graphic file (type QTm)
  <use  "images/tay3.png" >
-Overfull \hbox (158.64493pt too wide) in paragraph at lines 65--65
+Overfull \hbox (158.64493pt too wide) in paragraph at lines 66--66
 [][][]  
  []
 
 [9
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
- <use  "images/zeldapoop.png" > [10
+File: images/zeldabitch.jpg Graphic file (type QTm)
+ <use  "images/zeldabitch.jpg" >
+Overfull \vbox (8.10475pt too high) detected at line 83
+ []
+
+[10
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
- <use  "images/zeldapoop.png" > [11
+File: images/zeldabitch.jpg Graphic file (type QTm)
+ <use  "images/zeldabitch.jpg" >
+Overfull \vbox (8.10475pt too high) detected at line 83
+ []
+
+[11
 
 ]
 File: images/tay3.png Graphic file (type QTm)
-
-<use  "images/tay3.png" > [12
+ <use  "images/tay3.png" > [12
 
 ]
 File: images/tay3.png Graphic file (type QTm)
@@ -1826,10 +1833,10 @@ File: images/tay3.png Graphic file (type QTm)
 
 ] [14
 
-] [15
-
 ]
-[16
+[15
+
+] [16
 
 ] [17
 
@@ -1842,7 +1849,7 @@ File: images/tay3.png Graphic file (type QTm)
 ] [21
 
 ]
-Overfull \vbox (9.94073pt too high) detected at line 173
+Overfull \vbox (9.94073pt too high) detected at line 175
  []
 
 [22
@@ -1895,7 +1902,7 @@ File: images/circleplot.png Graphic file (type QTm)
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/m/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/m/n' instead on input line 
-260.
+262.
 
 [42
 
@@ -1925,33 +1932,33 @@ ex-text;"
 . <->"[fonts/FiraSans-Regular.ttf]/OT:script=latn;language=DFLT;+tnum;+smcp;map
 ping=tex-text;"
 .................................................
-LaTeX Info: Redefining \sffamily on input line 324.
-LaTeX Font Info:    Try loading font information for U+msa on input line 324.
+LaTeX Info: Redefining \sffamily on input line 326.
+LaTeX Font Info:    Try loading font information for U+msa on input line 326.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 324.
+LaTeX Font Info:    Try loading font information for U+msb on input line 326.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \sffamily on input line 324.
+LaTeX Info: Redefining \sffamily on input line 326.
  [44
 
 ]
-LaTeX Info: Redefining \sffamily on input line 324.
-LaTeX Info: Redefining \sffamily on input line 324.
+LaTeX Info: Redefining \sffamily on input line 326.
+LaTeX Info: Redefining \sffamily on input line 326.
  [45
 
 ]
-LaTeX Info: Redefining \sffamily on input line 367.
-LaTeX Info: Redefining \sffamily on input line 367.
+LaTeX Info: Redefining \sffamily on input line 369.
+LaTeX Info: Redefining \sffamily on input line 369.
 
 [46
 
 ]
-LaTeX Info: Redefining \sffamily on input line 367.
-LaTeX Info: Redefining \sffamily on input line 367.
+LaTeX Info: Redefining \sffamily on input line 369.
+LaTeX Info: Redefining \sffamily on input line 369.
  [47
 
 ] [48
@@ -1963,10 +1970,10 @@ LaTeX Info: Redefining \sffamily on input line 367.
 ] [51
 
 ]
-LaTeX Info: Redefining \sffamily on input line 436.
-LaTeX Info: Redefining \sffamily on input line 436.
+LaTeX Info: Redefining \sffamily on input line 438.
+LaTeX Info: Redefining \sffamily on input line 438.
 
-Overfull \hbox (0.6751pt too wide) in paragraph at lines 436--436
+Overfull \hbox (0.6751pt too wide) in paragraph at lines 438--438
  [][] 
  []
 
@@ -1976,7 +1983,7 @@ Overfull \hbox (0.6751pt too wide) in paragraph at lines 436--436
 
 LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
 (Font)              using `TU/FiraSans-Light.ttf(0)/bx/n' instead on input line
- 452.
+ 454.
 
 [53
 
@@ -1987,8 +1994,8 @@ LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
 ] [56
 
 ]
-File: images/zeldapoop.png Graphic file (type QTm)
- <use  "images/zeldapoop.png" > [57
+File: images/zeldabitch.jpg Graphic file (type QTm)
+ <use  "images/zeldabitch.jpg" > [57
 
 ] [58
 
@@ -1996,10 +2003,10 @@ File: images/zeldapoop.png Graphic file (type QTm)
 
 ] [60
 
-] [61
-
 ]
-[62
+[61
+
+] [62
 
 ] [63
 
@@ -2027,10 +2034,10 @@ File: images/zeldapoop.png Graphic file (type QTm)
 
 ] [75
 
-] [76
-
 ]
-[77
+[76
+
+] [77
 
 ] [78
 
@@ -2058,10 +2065,10 @@ File: images/zeldapoop.png Graphic file (type QTm)
 
 ] [90
 
-] [91
-
 ]
-[92
+[91
+
+] [92
 
 ] [93
 
@@ -2078,7 +2085,7 @@ File: images/zeldapoop.png Graphic file (type QTm)
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 736
+Overfull \vbox (1.02867pt too high) detected at line 739
  []
 
 [99
@@ -2086,7 +2093,7 @@ Overfull \vbox (1.02867pt too high) detected at line 736
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 736
+Overfull \vbox (1.02867pt too high) detected at line 739
  []
 
 [100
@@ -2094,7 +2101,7 @@ Overfull \vbox (1.02867pt too high) detected at line 736
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 736
+Overfull \vbox (1.02867pt too high) detected at line 739
  []
 
 [101
@@ -2102,7 +2109,7 @@ Overfull \vbox (1.02867pt too high) detected at line 736
 ]
 File: images/circleplot.png Graphic file (type QTm)
  <use  "images/circleplot.png" >
-Overfull \vbox (1.02867pt too high) detected at line 736
+Overfull \vbox (1.02867pt too high) detected at line 739
  []
 
 [102
@@ -2123,7 +2130,7 @@ Overfull \vbox (1.02867pt too high) detected at line 736
 
 ]
 LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
-(Font)              scaled to size 20.0pt on input line 916.
+(Font)              scaled to size 20.0pt on input line 919.
  [110
 
 ]
@@ -2136,11 +2143,11 @@ LaTeX Font Info:    Font shape `U/ccicons/m/n' will be
 \tf@snm=\write11
 \openout11 = `techtalk_slides.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 920.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 920.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 923.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 923.
  (./techtalk_slides.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 920.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 920.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 923.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 923.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2148,7 +2155,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  35863 strings out of 493005
- 725398 string characters out of 6134596
+ 725400 string characters out of 6134596
  849701 words of memory out of 5000000
  39182 multiletter control sequences out of 15000+600000
  7138 words of font info for 63 fonts, out of 8000000 for 9000
