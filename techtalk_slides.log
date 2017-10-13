@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  13 OCT 2017 11:26
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  13 OCT 2017 15:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1979,13 +1979,7 @@ Overfull \hbox (0.6751pt too wide) in paragraph at lines 438--438
 
 [52
 
-]
-
-LaTeX Font Warning: Font shape `TU/FiraSans-Light.ttf(0)/bx/it' undefined
-(Font)              using `TU/FiraSans-Light.ttf(0)/bx/n' instead on input line
- 454.
-
-[53
+] [53
 
 ] [54
 
@@ -2001,10 +1995,10 @@ File: images/zeldabitch.jpg Graphic file (type QTm)
 
 ] [59
 
-] [60
-
 ]
-[61
+[60
+
+] [61
 
 ] [62
 
@@ -2032,10 +2026,10 @@ File: images/zeldabitch.jpg Graphic file (type QTm)
 
 ] [74
 
-] [75
-
 ]
-[76
+[75
+
+] [76
 
 ] [77
 
@@ -2063,10 +2057,10 @@ File: images/zeldabitch.jpg Graphic file (type QTm)
 
 ] [89
 
-] [90
-
 ]
-[91
+[90
+
+] [91
 
 ] [92
 
@@ -2154,11 +2148,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35863 strings out of 493005
- 725400 string characters out of 6134596
+ 35864 strings out of 493005
+ 725478 string characters out of 6134596
  849701 words of memory out of 5000000
  39182 multiletter control sequences out of 15000+600000
- 7138 words of font info for 63 fonts, out of 8000000 for 9000
+ 7146 words of font info for 64 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,91p,10385b,847s stack positions out of 5000i,500n,10000p,200000b,80000s
 
